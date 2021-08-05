@@ -1,0 +1,57 @@
+.inline_block{
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.logo{
+    width:23%;
+    padding:1%;
+    text-align:center;
+}
+
+nav{
+    width:73%;
+    padding:1%;  
+    background-color:lightblue;
+}
+
+ul{
+    width:50%;
+    margin-left:auto;
+}
+
+li{
+    background-color: white;
+    padding: 20px 50px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.heroImg{
+    height:600px;
+    padding:25px;
+    /*background-size: cover;
+    background-repeat: no-repeat;*/
+}
+
+.content{
+    width:500px;
+    margin:0 auto;
+}
+
+footer{
+    background-color: #373738;
+    padding: 1em;
+    text-align: center;
+}
+
+footer ul{
+    display: inline-block;
+    vertical-align: top;
+    padding:1em;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
