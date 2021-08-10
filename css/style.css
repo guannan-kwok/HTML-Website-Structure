@@ -87,13 +87,13 @@ p{
 }
 
 .skillsImage{
-    height:400px;
+    height: 160px;
 }
 
 /* CSS GRID */
 
 .workGrid{
-    display: grid;
+    display:grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
@@ -104,32 +104,33 @@ p{
 }
 
 .item1{
-    grid-area:item1;
+    grid-area:item4;
 }
 
-.item1{
+.item2{
     grid-area:item2;
 }
 
-.item1{
-    grid-area:item3;
+.item3{
+    grid-area:item1;
 }
 
-.item1{
-    grid-area:item4;
+.item4{
+    grid-area:item3;
 }
 
 h1,h3,h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0px 160px;
+    padding: 20px 160px;
 }
 
 h3{
     background-color: #373738;
-    padding: 15px;
+    padding: 20px;
     color: white;
 }
 
+/* for mobile screens */
 @media only screen and (max-width: 600px){
     
     .flexContainer{
@@ -160,5 +161,11 @@ h3{
         "item1"
         "item3"
         ;
+    }
+
+    .projectImage{
+        height: 160px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
